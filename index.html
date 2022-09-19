@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>JR Portfolio Site</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper-->
+    <div id="wrapper">
+      <!-- Nav -->
+      <nav id="nav">
+        <a href="#" class="icon solid fa-home"><span>Home</span></a>
+        <a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+        <a href="#contact" class="icon solid fa-envelope"
+          ><span>Contact</span></a
+        >
+        <a
+          href="https://github.com/jamesrichards1"
+          class="icon brands fa-github"
+          ><span>GitHub</span></a
+        >
+        <a
+          href="https://www.linkedin.com/in/james-richards1"
+          class="icon brands fa-linkedin"
+          ><span>LinkedIn</span></a
+        >
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Me -->
+        <article id="home" class="panel intro">
+          <header>
+            <h1>James Richards</h1>
+            <p>Software Engineer</p>
+          </header>
+          <a href="#work" class="jumplink pic">
+            <span class="arrow icon solid fa-chevron-right"
+              ><span>See my work</span></span
+            >
+            <img src="images/me.jpg" alt="" />
+          </a>
+        </article>
+
+        <!-- Work -->
+        <article id="work" class="panel">
+          <header>
+            <h2>Projects</h2>
+          </header>
+          <p>
+            Here you will find things I have finished or I am currently working
+            on
+          </p>
+          <section>
+            <div class="row">
+              <div class="col-4 col-12-small projectBox">
+                <a href="#" class="image fit"
+                  ><img src="images/pic01.jpg" alt=""
+                /></a>
+              </div>
+              <div class="col-8 col-12-small">
+                <h3>Paw Prints</h3>
+                <p>
+                  Information page for local dog walker. Responsive, static site
+                  built with HTML/CSS/JS. Hosted on netlify. Contact form sends
+                  data to clients email.
+                </p>
+                <div>
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8 col-12-small projectBox">
+                <h3>Good Cage, Bad Cage</h3>
+                <p>
+                  Fun project attempting to solve the question, "is Nicolas Cage
+                  a good actor or bad actor?" Randomly generates a Nicolas Cage
+                  movie and allows users to vote whether it is a good or bad
+                  performance and ranks his movies accordingly.
+                </p>
+                <div>
+                  <span class="tag">React</span>
+                  <span class="tag">Tailwind</span>
+                  <span class="tag">MongoDB</span>
+                  <span class="tag">Vite</span>
+                  <span class="tag">Node.JS</span>
+                </div>
+              </div>
+              <div class="col-4 col-12-small">
+                <a href="#" class="image fit"
+                  ><img src="images/pic01.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4 col-12-small">
+                <a href="#" class="image fit"
+                  ><img src="images/pic03.jpg" alt="Workout Buddy Picture"
+                /></a>
+              </div>
+              <div class="col-8 col-12-small projectBox">
+                <h3>Workout Buddy</h3>
+                <p>
+                  Workout tracking web app. Allows users to create custom
+                  workouts, adds progressive overloads and tracks users previous
+                  workouts. (Work in progress)
+                </p>
+                <div>
+                  <span class="tag">React</span>
+                  <span class="tag">React Router</span>
+                  <span class="tag">Node.JS</span>
+                  <span class="tag">Express</span>
+                  <span class="tag">Tailwind</span>
+                  <span class="tag">Supabase</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!-- Contact -->
+        <article id="contact" class="panel">
+          <header>
+            <h2>Contact Me</h2>
+          </header>
+          <form action="#" method="post">
+            <div>
+              <div class="row">
+                <div class="col-6 col-12-medium">
+                  <input type="text" name="name" placeholder="Name" />
+                </div>
+                <div class="col-6 col-12-medium">
+                  <input type="text" name="email" placeholder="Email" />
+                </div>
+                <div class="col-12">
+                  <input type="text" name="subject" placeholder="Subject" />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    rows="6"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <input type="submit" value="Send Message" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <div id="footer"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
